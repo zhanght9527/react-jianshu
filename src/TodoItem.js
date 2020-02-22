@@ -34,4 +34,4 @@ TodoItem.defaultProps = {
   test: 'hello'
 }
 
-export default TodoItem;
+export default TodoItem
