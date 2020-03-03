@@ -33,7 +33,12 @@ class TodoList extends Component {
     )
   }
 
+  componentDidUpdate() {
+    console.log('parent update')
+  }
+
   getTodoItem() {
+    console.log('parent render')
     return this.state.list.map((item, index) => {
       return (
         <TodoItem
